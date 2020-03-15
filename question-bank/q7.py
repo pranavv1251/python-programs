@@ -1,6 +1,6 @@
 def transpose(matr):
     result = [[0 for x in range(len(matr))] for y in range(len(matr[0]))]
-
+    print(result)
     for i in range(len(matr)):
         for j in range(len(matr[0])):
             result[j][i] = matr[i][j]
